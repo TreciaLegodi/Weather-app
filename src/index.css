@@ -62,7 +62,8 @@ main {
   color: rgba(39, 33, 66, 0.4);
 }
 
-.weather-app-details span {
+.humidity,
+.wind-speed {
   color: #f65282;
   font-weight: 500;
 }
