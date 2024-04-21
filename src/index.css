@@ -59,7 +59,7 @@ main {
 .weather-app-details {
   font-size: 16px;
   line-height: 24px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(7, 5, 19, 0.4);
 }
 
 .humidity,
@@ -90,23 +90,33 @@ main {
 
 .weather-forecast {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: #000;
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
+}
+
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperature {
-  font-size: 13px;
+  font-size: 15px;
+  color: #f65282;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.weather-forecast-temperature-min {
-  opacity: 0.5;
+.weather-forecast-temperature-max {
+  font-weight: bold;
 }
 
 footer {
